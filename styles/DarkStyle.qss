@@ -233,14 +233,14 @@ QTreeView::branch:has-children:!has-siblings:closed,
 QTreeView::branch:closed:has-children:has-siblings {
 	border-image: none;
 	background-color: #1c1c1c; /*Background*/
-	image: url('styles:teamspeak3_darkstyle/misc/treeview/tree-collapse-normal.png');
+	image: url('styles:DarkStyle/misc/treeview/tree-collapse-normal.png');
 }
 
 QTreeView::branch:open:has-children:!has-siblings,
 QTreeView::branch:open:has-children:has-siblings {
 	border-image: none;
 	background-color: #1c1c1c; /*Background*/
-	image: url('styles:teamspeak3_darkstyle/misc/treeview/tree-expand-normal.png');
+	image: url('styles:DarkStyle/misc/treeview/tree-expand-normal.png');
 }
 
 QTreeView::branch:has-children:!has-siblings:closed:selected,
@@ -260,7 +260,7 @@ QTreeView::branch:has-children:!has-siblings:closed:hover,
 QTreeView::branch:closed:has-children:has-siblings:hover {
 	border-image: none;
 	background-color: #1c1c1c; /*Background*/
-	image: url('styles:teamspeak3_darkstyle/misc/treeview/tree-collapse-normal-hover.png');
+	image: url('styles:DarkStyle/misc/treeview/tree-collapse-normal-hover.png');
 
 }
 
@@ -268,7 +268,7 @@ QTreeView::branch:open:has-children:!has-siblings:hover,
 QTreeView::branch:open:has-children:has-siblings:hover  {
 	border-image: none;
 	background-color: #1c1c1c; /*Background*/
-	image: url('styles:teamspeak3_darkstyle/misc/treeview/tree-expand-normal-hover.png');
+	image: url('styles:DarkStyle/misc/treeview/tree-expand-normal-hover.png');
 }
 
 QTreeView::branch:has-children:!has-siblings:closed:selected:!active,
@@ -354,7 +354,7 @@ QSplitter::handle:vertical {
 
 QSizeGrip {
 	background-color: transparent;
-	image: url("styles:teamspeak3_darkstyle/resize-dots.png");
+	image: url("styles:DarkStyle/resize-dots.png");
 	width: 14px;
 	height: 14px;
 }
@@ -375,9 +375,9 @@ QToolBar:vertical {
 }
 
 QToolBar::handle:horizontal {
-	image: url('styles:teamspeak3_darkstyle/mainwindow/toolbar-handle-horizontal.png');
+	image: url('styles:DarkStyle/mainwindow/toolbar-handle-horizontal.png');
 }QToolBar::handle:vertical {
-	image: url('styles:teamspeak3_darkstyle/mainwindow/toolbar-handle-vertical.png');
+	image: url('styles:DarkStyle/mainwindow/toolbar-handle-vertical.png');
 }
 QToolBarSeparator {
 	background: #3c3c3c;
@@ -716,7 +716,7 @@ QMenu::separator {
 	background: #3c3c3c;
 }
 QMenu::indicator:non-exclusive:checked {
-	background-image:url('styles:teamspeak3_darkstyle/misc/tick.png')
+	background-image:url('styles:DarkStyle/misc/tick.png')
 }
 
 
@@ -781,7 +781,7 @@ QComboBox:on {
 	background-color: #1c1c1c;
 }
 QComboBox::down-arrow {
-	image: url('styles:teamspeak3_darkstyle/dialog/combobox.png');
+	image: url('styles:DarkStyle/dialog/combobox.png');
 }
 
 QComboBox#utcLocalComboBox {
@@ -839,7 +839,7 @@ QSpinBox::up-button {
 }
 
 QSpinBox::up-arrow {
-     background-image: url('styles:teamspeak3_darkstyle/dialog/spinner-up.png');
+     background-image: url('styles:DarkStyle/dialog/spinner-up.png');
 	 background-position: center center;
 	 background-repeat: no-repeat;
 }
@@ -854,7 +854,7 @@ QSpinBox::down-button {
 }
 
  QSpinBox::down-arrow {
-     background-image: url('styles:teamspeak3_darkstyle/dialog/spinner-down.png');
+     background-image: url('styles:DarkStyle/dialog/spinner-down.png');
 	 background-position: center center;
 	 background-repeat: no-repeat;
  }
@@ -907,12 +907,12 @@ QScrollBar::sub-line:vertical {
 }
 
 QScrollBar::up-arrow:vertical {
-	image: url('styles:teamspeak3_darkstyle/dialog/spinner-up.png');
+	image: url('styles:DarkStyle/dialog/spinner-up.png');
 	background: none;
 	background-repeat: none;
 }
 QScrollBar::down-arrow:vertical {
-	image: url('styles:teamspeak3_darkstyle/dialog/spinner-down.png');
+	image: url('styles:DarkStyle/dialog/spinner-down.png');
 	background: none;
 	background-repeat: none;
 }
@@ -962,12 +962,12 @@ QScrollBar::sub-line:horizontal {
 }
 
 QScrollBar::left-arrow:horizontal {
-	image: url('styles:teamspeak3_darkstyle/dialog/spinner-left.png');
+	image: url('styles:DarkStyle/dialog/spinner-left.png');
 	background: none;
 	background-repeat: none;
 }
 QScrollBar::right-arrow:horizontal {
-	image: url('styles:teamspeak3_darkstyle/dialog/spinner-right.png');
+	image: url('styles:DarkStyle/dialog/spinner-right.png');
 	background: none;
 	background-repeat: none;
 }
@@ -1075,7 +1075,7 @@ QCheckBox::indicator {
     height: 18px;
 	border: 0px solid transparent;
 	background-color: transparent;
-	background-image:url('styles:teamspeak3_darkstyle/misc/checkbox-normal.png');
+	background-image:url('styles:DarkStyle/misc/checkbox-normal.png');
 }
 
 QCheckBox::indicator:unchecked {
@@ -1084,21 +1084,21 @@ QCheckBox::indicator:unchecked {
 QCheckBox::indicator:unchecked:pressed {}
 
 QCheckBox::indicator:checked {
-    background-image:url('styles:teamspeak3_darkstyle/misc/checkbox-checked.png');
+    background-image:url('styles:DarkStyle/misc/checkbox-checked.png');
 	background-position: center;
 	background-repeat:no-repeat;
 	background-color: transparent;
 }
 
 QCheckBox::indicator:checked:hover{
-    background-image:url('styles:teamspeak3_darkstyle/misc/checkbox-checked.png');
+    background-image:url('styles:DarkStyle/misc/checkbox-checked.png');
 	background-position: center;
 	background-repeat:no-repeat;
 	background-color: transparent;
 }
 
 QCheckBox::indicator:checked:pressed {
-	background-image:url('styles:teamspeak3_darkstyle/misc/checkbox-checked.png');
+	background-image:url('styles:DarkStyle/misc/checkbox-checked.png');
 	background-position: center;
 	background-repeat:no-repeat;
 	background-color: transparent;
@@ -1121,20 +1121,20 @@ QRadioButton::indicator {
 	width: 18px;
 	height: 18px;
 	margin-top: 5px;
-	Background-image:url('styles:teamspeak3_darkstyle/misc/radiobutton.png');
+	Background-image:url('styles:DarkStyle/misc/radiobutton.png');
 }
 
  QRadioButton::indicator:unchecked:pressed {
-	background-image:url('styles:teamspeak3_darkstyle/misc/radiobutton-checked.png');
+	background-image:url('styles:DarkStyle/misc/radiobutton-checked.png');
  }
  QRadioButton::indicator::checked {
-	background-image:url('styles:teamspeak3_darkstyle/misc/radiobutton-checked.png');
+	background-image:url('styles:DarkStyle/misc/radiobutton-checked.png');
 }
  QRadioButton::indicator:checked:hover {
-	background-image:url('styles:teamspeak3_darkstyle/misc/radiobutton-checked.png');
+	background-image:url('styles:DarkStyle/misc/radiobutton-checked.png');
 }
  QRadioButton::indicator:checked:pressed {
-	background-image:url('styles:teamspeak3_darkstyle/misc/radiobutton.png');
+	background-image:url('styles:DarkStyle/misc/radiobutton.png');
 }
 
 ImprovedTabBarCloseButton#ServerTabCloseButton,
