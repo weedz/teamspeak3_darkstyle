@@ -1204,6 +1204,7 @@ InvitationDialog,
 QWidget#WhisperDialog,
 WhisperHistoryWidget,
 ImprovedWidget#ComplainView,
+ImprovedWidget#ChannelDescriptionEditTearOffWidget,
 FileTransferView {
 	background-color: #1c1c1c; /*Background*/
 }
@@ -1331,11 +1332,14 @@ PermissionsWidget #groupsListView::item:hover {
 	color: #ed4c37;
 }
 
-ImprovedToolBar QToolButton:hover {
+ImprovedToolBar QToolButton:hover,
+#ChannelDescriptionEditTearOffWidget QToolButton:hover {
 	border: 1px solid #3c3c3c;
 }
 
-ImprovedToolBar QToolButton:checked, #SpeakerMuteButton:checked, #AwayButton:checked {
+ImprovedToolBar QToolButton:checked,
+#SpeakerMuteButton:checked,
+#AwayButton:checked {
 	background-color: #262626;
 	border: 1px solid #3c3c3c;
 }
