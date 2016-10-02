@@ -118,7 +118,7 @@ PLUGIN_INFO_DATA
 		<td class="label">Nickname:</td>
 		<td>
 		  <img src="%%?CLIENT_COUNTRY_IMAGE%%" alt="" title="%%CLIENT_COUNTRY_TOOLTIP%%"/>&nbsp;&nbsp;
-		  <a href="client://%%CLIENT_ID%%/%%CLIENT_UNIQUE_ID%%~%%CLIENT_NAME_PERCENT_ENCODED%%" style="text-decoration: none; color: red;">%%CLIENT_NAME%%</a>
+		  <a href="client://%%CLIENT_ID%%/%%CLIENT_UNIQUE_ID%%~%%CLIENT_NAME_PERCENT_ENCODED%%" style="text-decoration: none;" class="red">%%CLIENT_NAME%%</a>
 		  &nbsp;<span class="blue" title="Custom Nickname">[%%?CLIENT_CUSTOM_NICK_NAME%%]</span>
 		  <span title="Client ID">(%%CLIENT_ID%%)</span>
 		</td>

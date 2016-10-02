@@ -85,6 +85,7 @@ TEMP_CHANNEL_TIME_TO_DELETE
 </style>
 
 <p style="margin-top: 4px; color: #ed4c37;">Channel will be deleted in %%?TEMP_CHANNEL_TIME_TO_DELETE%%.</p>
+<p style="margin-top: 4px; color: #ed4c37;">Channel will be deleted when empty for %%?TEMP_CHANNEL_DELETE_DELAY%% seconds.</p>
 <table id="header">
 	<tr>
 		<td class="channel_name"><a class="TextMessage_ChannelLink" href="channelid://%%CHANNEL_ID%%"><span class="red">%%CHANNEL_NAME%%</span></a></td>

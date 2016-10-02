@@ -983,11 +983,17 @@ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
 
 QHeaderView::section {
 	background-color: #1c1c1c; /*Background*/
-	border: 1px solid #3c3c3c; /*Border*/
+	/*border: 1px solid #3c3c3c; /*Border*/
+	border-top: 1px solid #3c3c3c;
+	border-bottom: 1px solid #3c3c3c;
+	border-right: 1px solid #3c3c3c;
 	color: #ddd; /*Text*/
 	font-weight: bold;
 	height: 23px;
 	padding: 2px;
+}
+QHeaderView::section:first, QHeaderView::section:only-one {
+	border-left: 1px solid #3c3c3c;
 }
 
 QTableView {
@@ -1308,19 +1314,22 @@ QTabBar::tab:top:hover {
 /* 						 About TeamSpeak Dialog						*/
 /* ---------------------------------------------------------------- */
 
-AboutDialog #tabWidget::pane,
-CreateChannelDialog #tabWidget::pane,
-PermissionsWidget #permTabWidget::pane {
-	border: 1px solid #3c3c3c;
-}
-QWidget#licenseTextBrowser {
+AboutDialog #licenseTextBrowser {
 	border: 0;
 }
 
-/* Connection Info */
+/* ----------------------------------------------------------------	*/
+/* 							 Tab Widget border						*/
+/* ---------------------------------------------------------------- */
+
+AboutDialog QTabWidget::pane,
+CreateChannelDialog QTabWidget::pane,
+PermissionsWidget QTabWidget::pane,
+VirtualServerEditDialog QTabWidget::pane,
 #ConnectionInfoDialog QTabWidget::pane {
 	border: 1px solid #3c3c3c;
 }
+
 
 /* Permissions */
 PermissionsWidget #groupsListView::item {
