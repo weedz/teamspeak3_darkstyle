@@ -983,7 +983,6 @@ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
 
 QHeaderView::section {
 	background-color: #1c1c1c; /*Background*/
-	/*border: 1px solid #3c3c3c; /*Border*/
 	border-top: 1px solid #3c3c3c;
 	border-bottom: 1px solid #3c3c3c;
 	border-right: 1px solid #3c3c3c;
