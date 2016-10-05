@@ -5,7 +5,7 @@
  * Copyright (c) TeamSpeak Systems GmbH
  *
  * Supported HTML Subset:
- * 
+ *
  *  TeamSpeak 3's text chat is able to display rich text, specified using a very limited subset of HTML 4 markup.
  *  Please refer to this page for more information:
  *
@@ -28,7 +28,7 @@
  * ===
  * === Primary Classes:
  * ===
- *  
+ *
  *  - TextMessage_Normal                   :: informational message
  *  - TextMessage_Welcome                  :: server welcome message
  *  - TextMessage_HostMsg                  :: server host message
@@ -75,15 +75,15 @@
  * ===
  * === Secondary Classes (used within messages):
  * ===
- *  
- *  - TextMessage_UserLink                 :: user nickname 
+ *
+ *  - TextMessage_UserLink                 :: user nickname
  *  - TextMessage_ChannelLink              :: channel name
  *  - TextMessage_ServerLink               :: server name
  *  - TextMessage_OfflineLink              :: offline unread message(s) count
  *  - TextMessage_Time                     :: message time
  *  - TextMessage_Text                     :: message text
  */
- 
+
 /* @group Global Elements */
 
 p {
@@ -92,7 +92,7 @@ p {
 }
 
 a {
-	color: #ed4c37;
+	color: #ed4c37; /*Accent*/
 }
 /* @end */
 
@@ -147,7 +147,7 @@ a {
 .TextMessage_ClientDropped,
 .TextMessage_ClientKicked,
 .TextMessage_ClientBanned {
-  color: #ed4c37;
+  color: #ed4c37; /*Accent*/
 }
 
 .TextMessage_ChannelCreated,
@@ -187,7 +187,7 @@ a {
 /* @group Error Message Elements */
 
 .TextMessage_ServerError {
-  color: #ed4c37;
+  color: #ed4c37; /*Accent*/
   font-weight: bold;
 }
 
