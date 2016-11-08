@@ -1,8 +1,4 @@
  /*
- -----------------------------------------------------------
-
-					       Version: 1.9
-
 -----------------------------------------------------------
 
    						Default Colours
@@ -857,11 +853,11 @@ QScrollBar:vertical {
 QScrollBar::handle:vertical {
 	min-height: 20px;
 	border: 0px solid transparent;
-	background-color: #3c3c3c; /*Accent*/
+	background-color: #3c3c3c; /*Border*/
 }
 QScrollBar::handle:vertical:hover {
 	border: 0px solid transparent;
-	background-color: #3c3c3c; /*Accent*/
+	background-color: #3c3c3c; /*Border*/
 }
 QScrollBar::add-line:vertical {
 	border: 0px solid transparent;
@@ -905,11 +901,11 @@ QScrollBar:horizontal {
 QScrollBar::handle:horizontal {
 	min-width: 20px;
 	border: 0px solid transparent;
-	background-color: #3c3c3c; /*Accent*/
+	background-color: #3c3c3c; /*Border*/
 }
 QScrollBar::handle:horizontal:hover {
 	border: 0px solid transparent;
-	background-color: #3c3c3c; /*Accent*/
+	background-color: #3c3c3c; /*Border*/
 }
 QScrollBar::add-line:horizontal  {
 	border: 0px solid transparent;
@@ -994,7 +990,7 @@ QSlider:vertical {
 QSlider::groove:horizontal {
 	border: 0px solid;
 	height: 2px;
-	background-color: #333;
+	background-color: #262626;
 	margin: 9px 0;
 }
 
@@ -1010,7 +1006,7 @@ QSlider::handle:horizontal {
 QSlider::groove:vertical {
 	border: 0px solid;
 	width: 2px;
-	background-color: #333;
+	background-color: #262626;
 	margin: 0 2px;
 }
 
@@ -1029,7 +1025,7 @@ QSlider::handle:vertical {
 /* ---------------------------------------------------------------- */
 
 QRadioButton {
-	color: #ffffff;
+	color: #ddd; /*Text*/
 }
 QRadioButton:hover {
 	color: #ed4c37; /*Accent*/
@@ -1039,7 +1035,7 @@ QCheckBox {
 	background-color: transparent;
     spacing: 8px;
 	margin-top: 5px;
-	color: #ffffff;
+	color: #ddd; /*Text*/
 }
 
 QCheckBox:hover {
@@ -1144,7 +1140,7 @@ QWidget#avatarWidget,
 QWidget#statusChangeWidget,
 QWidget#disableWidget {
 	background: none;
-	color: #ffffff;
+	color: #ddd; /*Text*/
 }
 
 FriendFoeManager,						/* AREA Background for friends list */
