@@ -849,25 +849,21 @@ QSpinBox::down-arrow:off {
 /* ---------------------------------------------------------------- */
 
 QScrollBar:vertical {
-	background-color: transparent;
-	width: 10px;
-	margin: 15px 0px 15px 0;
+	background-color: qlineargradient(x1:0, x2:1, stop: 0.45 transparent, stop:0.451 #282828, stop:0.5 #282828, stop:0.501 transparent);
+	width: 9px;
+	margin: 13px 0px 13px 0;
 }
 
 QScrollBar::handle:vertical {
+	min-height: 20px;
 	border: 0px solid transparent;
 	background-color: #3c3c3c; /*Accent*/
-	margin-top: 0px;
-	margin-bottom: 0px;
 }
 QScrollBar::handle:vertical:hover {
 	border: 0px solid transparent;
 	background-color: #3c3c3c; /*Accent*/
-	margin-top: 0px;
-	margin-bottom: 0px;
 }
 QScrollBar::add-line:vertical {
-	border-radius: 3px;
 	border: 0px solid transparent;
 	background-color: transparent;
 	subcontrol-position: bottom;
@@ -875,7 +871,6 @@ QScrollBar::add-line:vertical {
 	height: 8px;
 }
 QScrollBar::sub-line:vertical {
-	border-radius: 3px;
 	border: 0px solid transparent;
 	background-color: transparent;
 	subcontrol-position: top;
@@ -903,24 +898,20 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
 /* ---------------------------------------------------------------- */
 
 QScrollBar:horizontal {
-	background-color: transparent;
-	height: 10px;
-	margin: 0px 15px 0px 15px;
+	background-color: qlineargradient(y1:0, y2:1, stop: 0.45 transparent, stop:0.451 #282828, stop:0.5 #282828, stop:0.501 transparent);
+	height: 9px;
+	margin: 0px 13px 0px 13px;
 }
 QScrollBar::handle:horizontal {
+	min-width: 20px;
 	border: 0px solid transparent;
 	background-color: #3c3c3c; /*Accent*/
-	margin-top: 0px;
-	margin-bottom: 0px;
 }
 QScrollBar::handle:horizontal:hover {
 	border: 0px solid transparent;
 	background-color: #3c3c3c; /*Accent*/
-	margin-top: 0px;
-	margin-bottom: 0px;
 }
 QScrollBar::add-line:horizontal  {
-	border-radius: 3px;
 	border: 0px solid transparent;
 	background-color: transparent;
 	subcontrol-position: right;
@@ -928,7 +919,6 @@ QScrollBar::add-line:horizontal  {
 	width: 8px;
 }
 QScrollBar::sub-line:horizontal {
-	border-radius: 3px;
 	border: 0px solid transparent;
 	background-color: transparent;
 	subcontrol-position: left;
