@@ -117,7 +117,6 @@ ChatTab {
 	background-color: #1c1c1c; /*Background*/
 	font-family: Helvetica, Arial, sans-serif;
 	color: #ddd; /*Text*/
-	padding: 4px;
 	show-decoration-selected: 0;
 }
 
@@ -132,6 +131,7 @@ QLineEdit:read-only {
 	padding: 6px;
 }
 
+
 /* ----------------------------------------------------------------	*/
 /* 							InfoFrame | InfoView					*/
 /* ---------------------------------------------------------------- */
@@ -142,7 +142,6 @@ InfoFrame {
 	color: #ddd; /*Text*/
 	font-size: 12px;
 	font-family: Arial, Helvetica, Verdana;
-	padding: 4px;
 }
 
 
@@ -153,7 +152,6 @@ InfoFrame {
 
 QTreeView,
 QTreeWidget {
-	padding: 4px;
 	border: 1px solid #3c3c3c; /*Border*/
 	background-color: #1c1c1c; /*Background*/
 	background-attachment: fixed;
@@ -658,8 +656,6 @@ QMenu {
 	border: 1px solid #3c3c3c; /*Border*/
 	font-size: 12px;
 	color: #ddd; /*Text*/
-	padding-top: 0px;
-	padding-left: 0px;
 	padding: 4px;
 }
 QMenu::item {
@@ -669,7 +665,6 @@ QMenu::item {
 	padding-right: 4px;
 	padding-left: 23px;
 }
-
 QMenu::icon {
 	padding-left: 3px;
 }
@@ -846,8 +841,8 @@ QSpinBox::down-arrow:off {
 
 QScrollBar:vertical {
 	background-color: qlineargradient(x1:0, x2:1, stop: 0.45 transparent, stop:0.451 #282828, stop:0.5 #282828, stop:0.501 transparent);
-	width: 9px;
-	margin: 13px 0px 13px 0;
+	width: 11px;
+	margin: 13px 0 13px 2px;
 }
 
 QScrollBar::handle:vertical {
@@ -875,11 +870,13 @@ QScrollBar::sub-line:vertical {
 }
 
 QScrollBar::up-arrow:vertical {
+	margin-left: 2px;
 	image: url('styles:DarkStyle/dialog/spinner-up.png');
 	background: none;
 	background-repeat: none;
 }
 QScrollBar::down-arrow:vertical {
+	margin-left: 2px;
 	image: url('styles:DarkStyle/dialog/spinner-down.png');
 	background: none;
 	background-repeat: none;
@@ -895,8 +892,8 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
 
 QScrollBar:horizontal {
 	background-color: qlineargradient(y1:0, y2:1, stop: 0.45 transparent, stop:0.451 #282828, stop:0.5 #282828, stop:0.501 transparent);
-	height: 9px;
-	margin: 0px 13px 0px 13px;
+	height: 11px;
+	margin: 2px 13px 0px 13px;
 }
 QScrollBar::handle:horizontal {
 	min-width: 20px;
@@ -923,11 +920,13 @@ QScrollBar::sub-line:horizontal {
 }
 
 QScrollBar::left-arrow:horizontal {
+	margin-top: 2px;
 	image: url('styles:DarkStyle/dialog/spinner-left.png');
 	background: none;
 	background-repeat: none;
 }
 QScrollBar::right-arrow:horizontal {
+	margin-top: 2px;
 	image: url('styles:DarkStyle/dialog/spinner-right.png');
 	background: none;
 	background-repeat: none;
@@ -1315,4 +1314,15 @@ ImprovedToolBar QToolButton:checked,
 #AwayButton:checked {
 	background-color: #262626;
 	border: 1px solid #3c3c3c; /*Border*/
+}
+
+/*
+	Scrollbar stuff
+*/
+
+InfoFrame,
+QTreeView,
+QTreeWidget,
+ChatTab {
+	padding: 4px 2px 4px 4px;
 }
