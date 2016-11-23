@@ -1267,6 +1267,7 @@ QTabBar::tab:bottom:hover {
 		stop: 0.93 #1c1c1c,
 		stop: 0.94 #ed4c37,
 		stop: 1.0 #ed4c37);
+	border-bottom: 1px solid #ed4c37; /*Accent*/
 }
 
 
