@@ -54,7 +54,7 @@ PLUGIN_INFO_DATA
 
 <style type="text/css">
 	a {
-		color: #ed4c37;
+		color: #dc143c;
 	}
 	table#info {
 		border-collapse: collapse;
@@ -84,8 +84,8 @@ PLUGIN_INFO_DATA
 	.blue {
 		color: #08bbe4;
 	}
-	.red {
-		color: #ed4c37;
+	.accent {
+		color: #dc143c;
 	}
 	.small {
 		font-size: 7pt;
@@ -96,10 +96,10 @@ PLUGIN_INFO_DATA
 		font-size: 11px;
 	}
 	table#header {
-		margin: 5px 20px 5px 20px;
+		margin: 3px 13px 3px 13px;
 	}
 	table#header td {
-		font-size: 26px;
+		font-size: 18px;
 		font-weight: bold;
 		color: #08bbe4;
 	}
@@ -110,7 +110,7 @@ PLUGIN_INFO_DATA
 
 <table id="header">
 	<tr>
-		<td><span class="red"><a href="client://%%CLIENT_ID%%/%%CLIENT_UNIQUE_ID%%~%%CLIENT_NAME_PERCENT_ENCODED%%">%%CLIENT_NAME%%</a></span></td>
+		<td><span class="accent"><a href="client://%%CLIENT_ID%%/%%CLIENT_UNIQUE_ID%%~%%CLIENT_NAME_PERCENT_ENCODED%%">%%CLIENT_NAME%%</a></span></td>
 	</tr>
 </table>
 <table id="info">
@@ -118,7 +118,7 @@ PLUGIN_INFO_DATA
 		<td class="label">Nickname:</td>
 		<td>
 		  <img src="%%?CLIENT_COUNTRY_IMAGE%%" alt="" title="%%CLIENT_COUNTRY_TOOLTIP%%"/>&nbsp;&nbsp;
-		  <a href="client://%%CLIENT_ID%%/%%CLIENT_UNIQUE_ID%%~%%CLIENT_NAME_PERCENT_ENCODED%%" style="text-decoration: none;" class="red">%%CLIENT_NAME%%</a>
+		  <a href="client://%%CLIENT_ID%%/%%CLIENT_UNIQUE_ID%%~%%CLIENT_NAME_PERCENT_ENCODED%%" style="text-decoration: none;" class="accent">%%CLIENT_NAME%%</a>
 		  &nbsp;<span class="blue" title="Custom Nickname">[%%?CLIENT_CUSTOM_NICK_NAME%%]</span>
 		  <span title="Client ID">(%%CLIENT_ID%%)</span>
 		</td>
@@ -132,7 +132,7 @@ PLUGIN_INFO_DATA
 		<td><span class="blue">%%CLIENT_DATABASE_ID%%</span></td>
 	</tr>
 		<tr><td class="label">Description:</td><td><span class="blue">%%?CLIENT_DESCRIPTION%%</span></td></tr>
-		<tr><td class="label">Volume Modifier:</td><td><span class="red">%%?CLIENT_VOLUME_MODIFIER%% dB</span></td></tr>
+		<tr><td class="label">Volume Modifier:</td><td><span class="accent">%%?CLIENT_VOLUME_MODIFIER%% dB</span></td></tr>
 	<tr>
 		<td class="label">Version:</td>
 		<td><span class="blue">%%CLIENT_VERSION%% %%CLIENT_VERSION_STATE%% on %%CLIENT_PLATFORM%%</span></td>
@@ -167,7 +167,7 @@ PLUGIN_INFO_DATA
     		<div>%%CLIENT_CHANNEL_GROUP_ICON%% %%CLIENT_CHANNEL_GROUP_NAME%%</div>
 		</td>
 	</tr>
-	<tr><td><span class="red">*** Client requested Talk Power at <b>%%?CLIENT_TALK_REQUEST_TIME%%</b>.</span></td></tr>
-	<tr><td><span class="red">(%%?CLIENT_TALK_REQUEST_MSG%%)</span></td></tr>
+	<tr><td><span class="accent">*** Client requested Talk Power at <b>%%?CLIENT_TALK_REQUEST_TIME%%</b>.</span></td></tr>
+	<tr><td><span class="accent">(%%?CLIENT_TALK_REQUEST_MSG%%)</span></td></tr>
 </table>
 <table style="padding-top: 6px;">%%?PLUGIN_INFO_DATA%%</table>

@@ -14,6 +14,7 @@
 
 		Accents - Green		#a1e02d /*Accent*/ /*
 		Accents - Red		#ed4c37 /*Accent*/ /*
+        Accents - Crimson   #dc143c /*Accent2*/ /*
 		Accents - Blue		#2d9be0 /*Accent*/ /*
 
 -----------------------------------------------------------
@@ -47,13 +48,13 @@ QFrame {
 	color: #ddd; /*Text*/
 }
 QFrame:hover{
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 QGroupBox{
 	background-color: transparent;
 	border: 1px solid #3c3c3c; /*Border*/
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 	margin-top: 15px;
 	padding-top: 10px;
 }
@@ -125,7 +126,7 @@ QTextEdit#descriptionTextEdit,			/**/
 QTextEdit#vserverWelcomeTextEdit, 		/* Changelog text box */
 QTextEdit#changeLogTextEdit,
 QLineEdit:read-only {
-	border: 1px solid #3c3c3c; /*Accent*/
+	border: 1px solid #3c3c3c; /*Border*/
 	background-color: transparent;
 	color: #ddd; /*Text*/
 	padding: 6px;
@@ -171,15 +172,15 @@ TreeWidget {
 QTreeView::item:hover,
 QTreeView::item:selected:active {
 	background-color: #1c1c1c; /*Background*/
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 QTreeView::branch:hover {
 	background-color: #1c1c1c; /*Background*/
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 QTreeView::item:selected:!active {
 	background-color: #1c1c1c; /*Background*/
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 
@@ -283,11 +284,11 @@ QWidget#HeadlineLabel {
 
 QLabel#OptionsHeadlineTitleLabel {
 	font-size: 32px;
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 QLabel#OptionsHeadlineDescriptionLabel {
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 	font-size: 14px;
 }
 
@@ -401,7 +402,7 @@ QToolButton::menu-button {
 	width: 12px;
 }
 QToolButton::menu-button:hover {
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 	border: 1px solid transparent;
 }
 
@@ -473,7 +474,7 @@ QToolButton#improvedIdentityQualityButton:hover,
 QToolButton#toolButtonIcon:hover,
 QToolButton#copyServerIPButton:hover,
 QToolButton#copyClientIPButton:hover {
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 QToolButton#serverQueryStopButton:disabled,
@@ -602,16 +603,16 @@ QPushButton:default {
 	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
 		stop: 0 #3c3c3c,
 		stop: 0.93 #3c3c3c,
-		stop: 0.94 #ed4c37,
-		stop: 1.0 #ed4c37);
+		stop: 0.94 #dc143c,
+		stop: 1.0 #dc143c); /*Accent*/
 }
 
 QPushButton:hover {
 	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
 		stop: 0 #333,
 		stop: 0.97 #333,
-		stop: 0.98 #ed4c37,
-		stop: 1.0 #ed4c37);
+		stop: 0.98 #dc143c,
+		stop: 1.0 #dc143c); /*Accent*/
 }
 
 QPushButton:pressed {
@@ -641,11 +642,11 @@ QMenuBar::item {
 }
 
 QMenuBar::item:selected {
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 QMenuBar::item:hover {
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 /* ----------------------------------------------------------------	*/
@@ -671,7 +672,7 @@ QMenu::icon {
 
 QMenu::item:selected {
 	background-color: transparent;
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 QMenu::item:disabled {
 	color: #808080;
@@ -701,7 +702,7 @@ QListView {
 	min-width: 140px;
 	color: #ddd; /*Text*/
 	font-weight: normal;
-	selection-color: #ed4c37; /*Accent*/
+	selection-color: #dc143c; /*Accent*/
 	selection-background-color: #1c1c1c; /*Background*/
 }
 
@@ -709,7 +710,7 @@ QListView::item:hover,
 QListView::item:selected:active,
 QListView::item:selected:!active {
 	background-color: transparent;
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 QListWidget#identitiesListWidget,
@@ -734,11 +735,11 @@ QComboBox {
 	text-align: left;
 	padding-left: 5px;
 	padding-right: 10px;
-	selection-background-color: #ed4c37; /*Accent*/
+	selection-background-color: #dc143c; /*Accent*/
 }
 
 QComboBox:hover {
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 QComboBox:!editable:on,
@@ -774,7 +775,7 @@ QComboBox QAbstractItemView {
 	color: #ffffff;
 }
 QComboBox QAbstractItemView:hover {
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 
@@ -959,7 +960,7 @@ QTableView {
 	border: 0px solid transparent;
 	border-radius: 0px;
 	color: #ddd; /*Text*/
-	selection-color: #ed4c37; /*Accent*/
+	selection-color: #dc143c; /*Accent*/
 	font-weight: normal;
 	selection-background-color: #1c1c1c; /*Background*/
 	gridline-color: #3c3c3c; /*Border*/
@@ -971,7 +972,7 @@ QTableView::item {
 }
 QTableView::item:hover {
 	background-color: #1c1c1c; /*Background*/
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 
@@ -994,7 +995,7 @@ QSlider::groove:horizontal {
 }
 
 QSlider::handle:horizontal {
-	background-color: #ed4c37; /*Accent*/
+	background-color: #dc143c; /*Accent*/
 	border: 0px;
 	width: 6px;
 	height: 16px;
@@ -1010,7 +1011,7 @@ QSlider::groove:vertical {
 }
 
 QSlider::handle:vertical {
-	background-color: #ed4c37; /*Accent*/
+	background-color: #dc143c; /*Accent*/
 	border: 0px solid;
 	height: 4px;
 	width: 10px;
@@ -1027,7 +1028,7 @@ QRadioButton {
 	color: #ddd; /*Text*/
 }
 QRadioButton:hover {
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 QCheckBox {
@@ -1038,7 +1039,7 @@ QCheckBox {
 }
 
 QCheckBox:hover {
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 QCheckBox::indicator {
@@ -1233,19 +1234,19 @@ QTabBar::tab:top {
 }
 QTabBar::tab:top:selected {
     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-		stop: 0 #ed4c37,
-		stop: 0.10 #ed4c37,
+		stop: 0 #dc143c,
+		stop: 0.10 #dc143c,
 		stop: 0.101 #1c1c1c,
-		stop: 1.0 #1c1c1c);
+		stop: 1.0 #1c1c1c); /*Accent*/
 	border-top: none;
 	height: 23px;
 }
 QTabBar::tab:top:hover {
 	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-		stop: 0 #ed4c37,
-		stop: 0.05 #ed4c37,
+		stop: 0 #dc143c,
+		stop: 0.05 #dc143c,
 		stop: 0.06 #1c1c1c,
-		stop: 1.0 #1c1c1c);
+		stop: 1.0 #1c1c1c); /*Accent*/
 	border-top: none;
 	height: 23px;
 }
@@ -1257,17 +1258,17 @@ QTabBar::tab:bottom:selected {
     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
 		stop: 0 #1c1c1c,
 		stop: 0.9 #1c1c1c,
-		stop: 0.901 #ed4c37,
-		stop: 1.0 #ed4c37);
-	border-bottom: 1px solid #ed4c37; /*Accent*/
+		stop: 0.901 #dc143c,
+		stop: 1.0 #dc143c); /*Accent*/
+	border-bottom: 1px solid #dc143c; /*Accent*/
 }
 QTabBar::tab:bottom:hover {
 	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
 		stop: 0 #1c1c1c,
 		stop: 0.93 #1c1c1c,
-		stop: 0.94 #ed4c37,
-		stop: 1.0 #ed4c37);
-	border-bottom: 1px solid #ed4c37; /*Accent*/
+		stop: 0.94 #dc143c,
+		stop: 1.0 #dc143c); /*Accent*/
+	border-bottom: 1px solid #dc143c; /*Accent*/
 }
 
 
@@ -1300,7 +1301,7 @@ PermissionsWidget #groupsListView::item {
 
 PermissionsWidget #groupsListView::item:selected,
 PermissionsWidget #groupsListView::item:hover {
-	color: #ed4c37; /*Accent*/
+	color: #dc143c; /*Accent*/
 }
 
 ImprovedToolBar QToolButton:hover,

@@ -41,7 +41,7 @@ TEMP_CHANNEL_TIME_TO_DELETE
 
 <style type="text/css">
 	a {
-		color: #ed4c37;
+		color: #dc143c;
 	}
 	td {
 		padding: 0px 4px 0px 1px;
@@ -49,11 +49,11 @@ TEMP_CHANNEL_TIME_TO_DELETE
 	.blue {
 		color: #08bbe4;
 	}
-	.red {
-		color: #ed4c37;
+	.accent {
+		color: #dc143c;
 	}
 	table#header {
-		margin: 5px 20px 5px 20px;
+		margin: 3px 13px 3px 13px;
 		white-space: nowrap;
 	}
 	table#list {
@@ -68,7 +68,7 @@ TEMP_CHANNEL_TIME_TO_DELETE
 		font-weight: bold;
 	}
 	.channel_name {
-		font-size: 26px;
+		font-size: 18px;
 		font-weight: bold;
 		color: #08bbe4;
 	}
@@ -84,11 +84,11 @@ TEMP_CHANNEL_TIME_TO_DELETE
 
 </style>
 
-<p style="margin-top: 4px; color: #ed4c37;">Channel will be deleted in %%?TEMP_CHANNEL_TIME_TO_DELETE%%.</p>
-<p style="margin-top: 4px; color: #ed4c37;">Channel will be deleted when empty for %%?TEMP_CHANNEL_DELETE_DELAY%% seconds.</p>
+<p style="margin-top: 4px;" class="accent">Channel will be deleted in %%?TEMP_CHANNEL_TIME_TO_DELETE%%.</p>
+<p style="margin-top: 4px;" class="accent">Channel will be deleted when empty for %%?TEMP_CHANNEL_DELETE_DELAY%% seconds.</p>
 <table id="header">
 	<tr>
-		<td class="channel_name"><a class="TextMessage_ChannelLink" href="channelid://%%CHANNEL_ID%%"><span class="red">%%CHANNEL_NAME%%</span></a></td>
+		<td class="channel_name"><a class="TextMessage_ChannelLink" href="channelid://%%CHANNEL_ID%%"><span class="accent">%%CHANNEL_NAME%%</span></a></td>
 	</tr>
 	<tr><td class="channel_topic">%%?CHANNEL_TOPIC%%</td></tr>
 </table>
@@ -113,7 +113,7 @@ TEMP_CHANNEL_TIME_TO_DELETE
 		<td class="label">Clients:</td>
 		<td><span class="blue">%%CHANNEL_CLIENTS_COUNT%% / %%CHANNEL_FLAG_MAXCLIENTS%%</span></td>
 	</tr>
-	<tr><td class="label">Needed talk power:</td><td><span class="red">%%?CHANNEL_NEEDED_TALK_POWER%%</span></td></tr>
+	<tr><td class="label">Needed talk power:</td><td><span class="accent">%%?CHANNEL_NEEDED_TALK_POWER%%</span></td></tr>
 	<tr>
 		<td class="label">Subscription status:</td>
 		<td><span class="blue">%%CHANNEL_SUBSCRIPTION%%</span></td>

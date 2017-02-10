@@ -35,7 +35,7 @@ SERVER_REFRESH_ACTIVE
 
 <style type="text/css">
 	a {
-		color: #ed4c37;
+		color: #dc143c;
 	}
 	td {
 		padding: 0px 4px 0px 1px;
@@ -43,14 +43,14 @@ SERVER_REFRESH_ACTIVE
 	.blue {
 		color: #08bbe4;
 	}
-	.red {
-		color: #ed4c37;
+	.accent {
+		color: #dc143c;
 	}
 	td.space {
 		padding-top: 6px;
 	}
 	table#header {
-		margin: 5px 20px 5px 20px;
+		margin: 3px 13px 3px 13px;
 		white-space: nowrap;
 	}
 	table#list {
@@ -60,7 +60,7 @@ SERVER_REFRESH_ACTIVE
 		padding-left: 12px;
 	}
 	.server_name {
-		font-size: 26px;
+		font-size: 18px;
 		font-weight: bold;
 		color: #08bbe4;
 	}
@@ -86,7 +86,7 @@ SERVER_REFRESH_ACTIVE
 
 <table id="header">
 	<tr>
-		<td class="server_name"><a href="channelid://0" class="TextMessage_ServerLink"><span class="red">%%SERVER_NAME%%</span></a></td>
+		<td class="server_name"><a href="channelid://0" class="TextMessage_ServerLink"><span class="accent">%%SERVER_NAME%%</span></a></td>
 	</tr>
 </table>
 <table id="info">
@@ -116,7 +116,7 @@ SERVER_REFRESH_ACTIVE
 	<tr title="Total Client Connections: %%SERVER_CLIENT_CONNECTIONS">
 		<td class="label">Current Clients:</td>
 		<td><span class="blue">%%SERVER_CLIENTS_ONLINE%% / %%SERVER_MAXCLIENTS%% %%?SERVER_NO_RESERVED_SLOTS%%</span></td>
-		<td><span class="blue">%%SERVER_CLIENTS_ONLINE%% / %%SERVER_MAXCLIENTS%% (<span class="red">-%%?SERVER_RESERVED_SLOTS%% reserved</span>)</span></td>
+		<td><span class="blue">%%SERVER_CLIENTS_ONLINE%% / %%SERVER_MAXCLIENTS%% (<span class="accent">-%%?SERVER_RESERVED_SLOTS%% reserved</span>)</span></td>
 	</tr>
 	<tr title="Total ServerQuery Connections: %%SERVER_QUERY_CLIENT_CONNECTIONS%%">
 		<td class="label">Current Queries:</td>
